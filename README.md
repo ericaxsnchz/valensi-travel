@@ -1,2 +1,3 @@
 # valensi-travel
-Valensi Travel is a template for a potential travel agency. This includes a home screen, services page, and a contacting page.
+- Erica Penaflor
+- Valensi Travel displays a travel agency website that provides services for any traveler. It includes a mission statement, services page, and a contacting page to book with an agent.
