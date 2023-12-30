@@ -17,6 +17,10 @@ body {
     font-family: 'Mulish', Arial, Helvetica, sans-serif;
 }
 
+.third {
+    color: black;
+}
+
 header {
     background-color: white;
     padding: 5px;
@@ -135,6 +139,20 @@ h1 {
     text-decoration: none;
     color: black;
     font-size: 30px;
+}
+
+.bg-cont {
+    background-image: url(../images/cont.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+.bg-shield {
+    margin: 10px 0;
+    background-color: rgba(255, 255, 255, 0.6);
 }
 
 .items {
