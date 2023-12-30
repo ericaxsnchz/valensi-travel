@@ -107,6 +107,7 @@ h1 {
     color: black;
     background-color: white;
     margin: 30px 0;
+    padding: 20px;
 }
 
 .service-menu{
@@ -123,9 +124,33 @@ h1 {
     font-size: 25px;
 }
 
+.items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+}
+
+img {
+    height: 300px;
+    float: left;
+}
+
+.r-img {
+    margin: 0rem 8rem;
+}
+
+.item-text {
+    margin-left: 25px;
+}
+
+.item-text p {
+    font-size: 20px;
+}
+
 footer {
     background-color: white;
-    margin: 0;
+    padding: 8px;
 }
 
 .bottom {
@@ -133,6 +158,7 @@ footer {
     font-size: 25px;
     text-align: center;
     word-spacing: 7px;
+    margin: 0;
 }
 
 .bottom a {
