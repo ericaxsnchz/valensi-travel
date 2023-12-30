@@ -28,7 +28,63 @@
     <div class="bg-cont">
         <div class="bg-shield">
             <h1>Book an Appointment!</h1>
+        
+        <form action="#" method="get">
+            <div>
+                <label>
+                    Full Name
+                    <input type="text" 
+                    name="full-name" 
+                    id="full-name"
+                    placeholder="Full Name" 
+                    required>
+                </label>
+            </div>
+            <div>
+                <label>
+                    Email
+                    <input type="email" 
+                    name="email" 
+                    placeholder="E-mail address" 
+                    required>
+                </label>
+            </div>
+            <div>
+                <label>
+                    Phone Number
+                    <input type="tel" 
+                    name="phone" 
+                    placeholder="(000)-000-0000"
+                    required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+                </label>
+            </div>
+            <div>
+                    <legend>Service</legend>
+                    <label><input type="checkbox" name="adventure">
+                    Adventure</label>
+                    <label><input type="checkbox" name="business">
+                    Business</label>
+                    <label><input type="checkbox" name="family">
+                    Family</label>
+                    <label><input type="checkbox" name="relaxation">
+                    Relaxation</label>
+                    <label><input type="checkbox" name="romance">
+                    Romance</label>
+            </div>
+            <div>
+                <label>
+                    Additional Comments or Requests
+                    <textarea name="message"
+                    cols="30" rows="10"></textarea>
+                </label>
+            </div>
+            <div>
+                <button type="submit">Send</button>
+            </div>
+        </form>
+
         </div>
+        
     </div>
 
 
