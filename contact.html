@@ -27,62 +27,63 @@
 
     <div class="bg-cont">
         <div class="bg-shield">
-            <h1>Book an Appointment!</h1>
-        
+            <section>
+            <h1>Contact Us!</h1>
+            <p>Let us know what travel you're looking for. We want to 
+                make sure you are selecting the service for you and 
+                your travel needs. Lorem ipsum dolor sit amet consectetur 
+                adipisicing elit. Error maiores similique fugit esse ullam 
+                aliquam, alias reiciendis odio eius quod. Rerum exercitationem 
+                labore voluptates ex minus. Doloribus quidem corporis numquam!
+            </p>
+            </section>
+        </div>
+        <div class="bg-shield">
+        <section>
         <form action="#" method="get">
-            <div>
-                <label>
-                    Full Name
+            <div class="forms">
                     <input type="text" 
                     name="full-name" 
                     id="full-name"
                     placeholder="Full Name" 
                     required>
-                </label>
             </div>
-            <div>
-                <label>
-                    Email
+            <div class="forms">
                     <input type="email" 
                     name="email" 
                     placeholder="E-mail address" 
                     required>
-                </label>
             </div>
-            <div>
-                <label>
-                    Phone Number
+            <div class="forms">
                     <input type="tel" 
                     name="phone" 
                     placeholder="(000)-000-0000"
                     required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
-                </label>
             </div>
-            <div>
-                    <legend>Service</legend>
-                    <label><input type="checkbox" name="adventure">
-                    Adventure</label>
-                    <label><input type="checkbox" name="business">
-                    Business</label>
-                    <label><input type="checkbox" name="family">
-                    Family</label>
-                    <label><input type="checkbox" name="relaxation">
-                    Relaxation</label>
-                    <label><input type="checkbox" name="romance">
-                    Romance</label>
+            <div class="forms">
+                <fieldset>
+                    <h3>Service</h3>
+                    <input type="checkbox" name="adventure">
+                    <label>Adventure</label>
+                    <input type="checkbox" name="business">
+                    <label>Business</label>
+                    <input type="checkbox" name="family">
+                    <label>Family</label>
+                    <input type="checkbox" name="relaxation">
+                    <label>Relaxation</label>
+                    <input type="checkbox" name="romance">
+                    <label>Romance</label>
+                    </fieldset>
             </div>
-            <div>
-                <label>
-                    Additional Comments or Requests
+            <div class="forms">
                     <textarea name="message"
-                    cols="30" rows="10"></textarea>
-                </label>
+                    cols="30" rows="10">I would love more information about</textarea>
             </div>
-            <div>
+            <div class="forms">
                 <button type="submit">Send</button>
             </div>
         </form>
-
+        </section>
         </div>
         
     </div>
