@@ -41,21 +41,27 @@ header {
 }
 
 .header-nav-menu {
-    margin: 20;
+    margin: 10px;
     list-style: none;
     display: flex;
-    justify-content: flex-end;
+    align-items: center;
 }
 
 .header-menu-item {
-    margin-right: 3rem;
+    margin: 0px 20px;
 }
 
 .header-menu-item a {
     text-decoration: none;
     color: black;
     font-size: 25px;
-    display: center;
+    padding: 10px;
+}
+
+.header-menu-item:hover {
+    background-color: rgba(190, 189, 189, 0.627); 
+    border-radius: 5px; 
+    position: relative; 
 }
 
 .travel {
@@ -138,7 +144,7 @@ hr {
 }
 
 .services p {
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
 }
 
@@ -179,11 +185,12 @@ hr {
     margin: 15px;
     background-color: rgba(255, 255, 255, 0.6);
     color: black;
-    font-size: 20px;
+    font-size: 25px;
+    text-align: center;
 }
 
 section {
-    background-color: rgba(255, 255, 255, 0.688);
+    background-color: rgba(51, 88, 74, 0.486);
     padding: 20px;
 }
 
@@ -198,15 +205,18 @@ input, textarea {
     margin: 10px auto;
     padding: 12px 20px;
     text-indent: 0px;
-    font-size: 20px;
+    font-size: 23px;
+    font-family: 'Mulish', Arial, Helvetica, sans-serif;
 }
 
 fieldset {
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.753);
     border: none;
     width: 82%;
-    padding: 12px;
+    padding: 20px 12px;
+    margin: 15px;
     text-align: center;
+    font-size: 23px;
 }
 
 label {
@@ -214,9 +224,9 @@ label {
 }
 
 [type=checkbox] {
-    margin: 0px 5px 0px 30px;
+    margin: 0px 2px 0px 20px;
     width: 30px;
-    height: 15px;
+    height: 21px;
     cursor: pointer;
 }
 
@@ -224,6 +234,7 @@ label {
     background-color: rgb(243, 239, 239);
     color: black;
     border: none;
+    border-radius: 5px;
     box-sizing: content-box;
     cursor: pointer;
     font-size: 20px;
@@ -233,7 +244,10 @@ label {
 }
 
 [type=submit]:hover {
-    background-color: white;
+    background-color: rgba(43, 110, 137, 0.842);
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
 }
 
 .items {
@@ -254,7 +268,7 @@ img {
 }
 
 .item-text p {
-    font-size: 20px;
+    font-size: 25px;
 }
 
 footer {
