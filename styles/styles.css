@@ -4,18 +4,25 @@ body {
     margin: 0;
 }
 
+h1 {
+    font-family: 'Lobster', Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    text-align: center;
+    font-size: 60px;
+    margin: 30px;
+}
+
+h3 {
+    font-family: 'Lobster', Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    text-align: center;
+    margin: 0px 0px 30px 0px;
+    font-size: 40px;
+}
+
 .first {
     display: flex;
     flex-direction: column;
-}
-
-.second {
-    color: black;
-    font-family: 'Mulish', Arial, Helvetica, sans-serif;
-}
-
-.third {
-    color: black;
 }
 
 header {
@@ -61,11 +68,6 @@ header {
     position: relative; 
 }
 
-.travel {
-    position: relative;
-    text-align: center;
-}
-
 .banner {
     width: 100%;
     height: 720px;
@@ -90,20 +92,9 @@ header {
     text-align: center;
 }
 
-h1 {
-    font-family: 'Lobster', Arial, Helvetica, sans-serif;
-    font-weight: 100;
-    text-align: center;
-    font-size: 60px;
-    margin: 30px;
-}
-
-h3 {
-    font-family: 'Lobster', Arial, Helvetica, sans-serif;
-    font-weight: 100;
-    text-align: center;
-    margin: 0px 0px 30px 0px;
-    font-size: 40px;
+section {
+    background-color:  rgba(63, 150, 147, 0.462);
+    padding: 20px;
 }
 
 .column {
@@ -119,7 +110,7 @@ h3 {
     border: 2px solid black;
     background-color: rgba(255, 255, 255, 0.623);
     text-align: center;
-    color: black;
+    color:rgba(63, 150, 147, 0.935);
 }
 
 .c-img {
@@ -143,7 +134,7 @@ hr {
 
 .services-items a {
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: 30px;
 }
 
@@ -155,6 +146,27 @@ hr {
     padding: 5px;
 }
 
+.items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+}
+
+img {
+    height: 300px;
+    float: left;
+}
+
+
+.item-text {
+    margin-left: 25px;
+}
+
+.item-text p {
+    font-size: 25px;
+}
+
 .bg-cont {
     background-image: url(../images/cont.jpg);
     background-repeat: no-repeat;
@@ -162,11 +174,6 @@ hr {
     background-position: center center;
     background-attachment: fixed;
     margin: 0;
-    padding: 20px;
-}
-
-section {
-    background-color:  rgba(63, 150, 147, 0.462);
     padding: 20px;
 }
 
@@ -188,7 +195,7 @@ input, textarea {
 fieldset {
     background-color: rgba(255, 255, 255, 0.729);
     border: none;
-    color: black;
+    color: rgba(63, 150, 147, 0.935);
     width: 82%;
     padding: 20px 12px;
     margin: 15px;
@@ -198,6 +205,7 @@ fieldset {
 
 label {
     margin: 0px 20px 0px 3px;
+    font-weight: bold;
 }
 
 [type=checkbox] {
@@ -226,27 +234,6 @@ label {
     border-radius: 5px;
     color: white;
     font-weight: bold;
-}
-
-.items {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 8px;
-}
-
-img {
-    height: 300px;
-    float: left;
-}
-
-
-.item-text {
-    margin-left: 25px;
-}
-
-.item-text p {
-    font-size: 25px;
 }
 
 footer {
