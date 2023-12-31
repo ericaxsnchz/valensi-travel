@@ -7,3 +7,5 @@
   - the navbar can be on the service page is different compared to the others. I would want to better improve my knowledge on navbars and    
     making sure there aren't any issues.
   - having a variety of color schemes/themes to base the design of the site. The final layout is completely different from the original.
+
+https://ericaxsnchz.github.io/valensi-travel/
