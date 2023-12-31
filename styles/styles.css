@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(230, 227, 227);
+    background-image: linear-gradient( rgba(60, 90, 77, 0.853), rgba(40, 103, 128, 0.795));
     color: black;
     font-family: 'Mulish', Arial, Helvetica, sans-serif;
     margin: 0;
@@ -80,8 +80,10 @@ header {
 }
 
 h1 {
+    font-family: 'Lobster', Arial, Helvetica, sans-serif;
+    font-weight: 100;
     text-align: center;
-    font-size: 40px;
+    font-size: 60px;
 }
 
 h3 {
@@ -92,10 +94,11 @@ h3 {
 
 .mission {
     margin: 30px 0;
+    padding: 80px 10px;
     background-color: rgba(255, 255, 255, 0.6);
     color: black;
     text-align: center;
-    font-size: 23px;
+    font-size: 30px;
 }
 .column {
     display: flex;
@@ -105,9 +108,10 @@ h3 {
 .column-item {
     width: calc(100% / 3 - 10px);
     margin: 5px;
+    margin-bottom: 20px;
     padding: 5px;
     border: 2px solid black;
-    background-color: rgba(255, 255, 255, 0.719);
+    background-color: rgba(255, 255, 255, 0.623);
     text-align: center;
     color: black;
 }
@@ -145,6 +149,13 @@ h3 {
     text-decoration: none;
     color: black;
     font-size: 30px;
+}
+
+.services-items:hover {
+    border: 3px solid black;  
+    border-radius: 5px; 
+    position: relative; 
+    margin: -5px;
 }
 
 .bg-cont {
